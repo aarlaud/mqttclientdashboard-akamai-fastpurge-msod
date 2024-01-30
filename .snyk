@@ -1,0 +1,97 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mosca > ascoltatori > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ioredis > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > ioredis > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > path-array > array-index > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > path-array > array-index > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > path-array > array-index > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+    - express > finalhandler > debug:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:extend:20180424':
+    - mosca > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - edgegrid > request > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > mqtt > help-me > glob-stream > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > mqtt > help-me > glob-stream > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > extend:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:hoek:20180212':
+    - mosca > leveldown > prebuild > node-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > hawk > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:59:31.582Z'
+  SNYK-JS-LODASH-567746:
+    - mosca > amqp > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > amqp > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > ioredis > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+    - edgegrid > request > form-data > async > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:lodash:20180130':
+    - mosca > ioredis > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > lodash:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:moment:20170905':
+    - edgegrid > moment:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:stringstream:20180511':
+    - edgegrid > request > stringstream:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > stringstream:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > stringstream:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > stringstream:
+        patched: '2022-10-07T21:59:31.582Z'
+  'npm:tough-cookie:20170905':
+    - edgegrid > request > tough-cookie:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > leveldown > prebuild > node-ninja > request > tough-cookie:
+        patched: '2022-10-07T21:59:31.582Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:59:31.582Z'
