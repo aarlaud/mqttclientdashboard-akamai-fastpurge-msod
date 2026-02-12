@@ -12,9 +12,9 @@
   "author": "Antoine Arlaud (aarlaud@github)",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.4",
     "edgegrid": "^3.0.2",
-    "express": "^4.15.3",
+    "express": "^4.22.0",
     "mosca": "^2.5.2"
   }
 }
